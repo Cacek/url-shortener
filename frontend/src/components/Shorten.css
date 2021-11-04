@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(250, 246, 246) !important;
+  }
+ .vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+  }
+
+  .btnStyle{
+    border-radius: 0 .25em .25em 0 !important;
+  }
+
+  #shorturl {
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .hide-shorturl {
+    opacity: 0;
+  }
+
+  .display-shorturl {
+    opacity: 1;
+    transition: 0.4s all;
+  }
